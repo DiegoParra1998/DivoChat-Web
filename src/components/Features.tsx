@@ -70,7 +70,7 @@ const Features = () => {
           {features.map((f, i) => (
             <div
               key={i}
-              ref={(el) => (cardsRef.current[i] = el)}
+              ref={(el) => { cardsRef.current[i] = el as HTMLDivElement; }}
               className="p-8 bg-white/5 border border-white/10 rounded-3xl hover:bg-white/10 transition-all group hover:border-primary/50 relative overflow-hidden"
             >
               <div className="absolute -right-10 -top-10 w-32 h-32 bg-primary/10 blur-3xl rounded-full group-hover:bg-primary/20 transition-all" />
