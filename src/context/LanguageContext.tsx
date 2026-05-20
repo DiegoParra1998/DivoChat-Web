@@ -101,7 +101,7 @@ const translations: Translations = {
     en: 'The #1 WhatsApp floating button for Shopify stores. Built for conversion and performance.', 
     es: 'El botón flotante de WhatsApp #1 para tiendas Shopify. Diseñado para la conversión y el rendimiento.' 
   },
-  'footer.copyright': { en: '© 2025 digiTraffic SAS. All rights reserved.', es: '© 2025 digiTraffic SAS. Todos los derechos reservados.' },
+  'footer.copyright': { en: '© 2026 digiTraffic SAS. All rights reserved.', es: '© 2026 digiTraffic SAS. Todos los derechos reservados.' },
   'footer.privacy': { en: 'Privacy Policy', es: 'Política de Privacidad' },
   'footer.terms': { en: 'Terms of Service', es: 'Términos de Servicio' },
   'footer.product': { en: 'Product', es: 'Producto' },

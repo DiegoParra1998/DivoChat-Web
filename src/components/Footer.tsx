@@ -65,7 +65,16 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-center items-center gap-4">
           <p className="text-white/20 text-xs tracking-widest uppercase font-medium">
-            {t('footer.copyright')}
+            {t('footer.copyright').split('digiTraffic SAS')[0]}
+            <a
+              href="https://www.digitraffic.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white/60 transition-colors"
+            >
+              digiTraffic SAS
+            </a>
+            {t('footer.copyright').split('digiTraffic SAS')[1]}
           </p>
         </div>
       </div>
