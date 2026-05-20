@@ -78,9 +78,9 @@ const Navbar = () => {
             <span className={language === 'es' ? 'text-white' : 'text-white/40'}>ES</span>
           </button>
 
-          <button className="hidden md:block px-6 py-3 bg-white text-black text-xs font-black uppercase tracking-widest rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 active:scale-95 shadow-[0_10px_20px_rgba(255,255,255,0.1)]">
+          <a href="https://apps.shopify.com/whatschatapp?locale=es&preferred_listing_locale=en#adp-details-section" target="_blank" rel="noopener noreferrer" className="hidden md:block px-6 py-3 bg-white text-black text-xs font-black uppercase tracking-widest rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 active:scale-95 shadow-[0_10px_20px_rgba(255,255,255,0.1)]">
             {t('nav.install')}
-          </button>
+          </a>
           
           {/* Mobile Toggle */}
           <button 
@@ -112,9 +112,9 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <button className="w-full py-4 bg-primary text-white font-black uppercase tracking-widest rounded-2xl shadow-[0_10px_20px_rgba(0,112,243,0.3)]">
+              <a href="https://apps.shopify.com/whatschatapp?locale=es&preferred_listing_locale=en#adp-details-section" target="_blank" rel="noopener noreferrer" className="w-full py-4 bg-primary text-white font-black uppercase tracking-widest rounded-2xl shadow-[0_10px_20px_rgba(0,112,243,0.3)] text-center">
                 {t('nav.install')}
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

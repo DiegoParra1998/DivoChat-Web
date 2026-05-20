@@ -47,9 +47,9 @@ export default function Home() {
             {t('cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-10 py-4 bg-primary text-white font-bold rounded-2xl hover:bg-secondary transition-all shadow-[0_0_30px_rgba(0,112,243,0.4)] whitespace-nowrap">
+            <a href="https://apps.shopify.com/whatschatapp?locale=es&preferred_listing_locale=en#adp-details-section" target="_blank" rel="noopener noreferrer" className="px-10 py-4 bg-primary text-white font-bold rounded-2xl hover:bg-secondary transition-all shadow-[0_0_30px_rgba(0,112,243,0.4)] whitespace-nowrap">
               {t('cta.button')}
-            </button>
+            </a>
           </div>
         </div>
       </section>

@@ -59,9 +59,9 @@ const Hero = () => {
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center px-6">
-          <button className="w-full sm:w-auto px-8 py-4 bg-primary text-white font-bold rounded-2xl hover:bg-secondary transition-all shadow-[0_0_30px_rgba(0,112,243,0.4)]">
+          <a href="https://apps.shopify.com/whatschatapp?locale=es&preferred_listing_locale=en#adp-details-section" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-primary text-white font-bold rounded-2xl hover:bg-secondary transition-all shadow-[0_0_30px_rgba(0,112,243,0.4)] text-center">
             {t('hero.cta.primary')}
-          </button>
+          </a>
           <button className="w-full sm:w-auto px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold rounded-2xl hover:bg-white/20 transition-all">
             {t('hero.cta.secondary')}
           </button>

@@ -153,17 +153,20 @@ const PricingSection = () => {
                     ))}
                   </div>
 
-                  <button 
+                  <a
+                    href="https://apps.shopify.com/whatschatapp?locale=es&preferred_listing_locale=en#adp-details-section"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onMouseEnter={() => setIsHappy(true)}
                     onMouseLeave={() => setIsHappy(false)}
-                    className={`w-full py-5 md:py-6 rounded-xl md:rounded-2xl font-black text-xs md:text-sm uppercase tracking-[0.2em] transition-all duration-500 transform active:scale-95 ${
-                      plan.recommended 
-                        ? 'bg-primary text-white shadow-[0_25px_50px_-12px_rgba(0,112,243,0.6)] hover:bg-secondary hover:-translate-y-1' 
+                    className={`w-full py-5 md:py-6 rounded-xl md:rounded-2xl font-black text-xs md:text-sm uppercase tracking-[0.2em] transition-all duration-500 transform active:scale-95 text-center block ${
+                      plan.recommended
+                        ? 'bg-primary text-white shadow-[0_25px_50px_-12px_rgba(0,112,243,0.6)] hover:bg-secondary hover:-translate-y-1'
                         : 'bg-white/10 text-white hover:bg-white/20 border border-white/5'
                     }`}
                   >
                     {t(plan.cta)}
-                  </button>
+                  </a>
                 </div>
               </motion.div>
             ))}
