@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "DivoChat | Turn WhatsApp into your best sales channel",
   description: "Add a floating WhatsApp button to your Shopify store in minutes. Track every conversation, know which products your customers ask about, and connect it to Meta Pixel.",
   icons: {
-    icon: "/Icono.png",
-    apple: "/Icono.png",
+    icon: "/icon.png",
+    apple: "/icon.png",
   }
 };
 
